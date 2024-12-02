@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>verkkosivu1</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  header {
+    background-color: #59ff00;
+    padding: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+  }
+
+  nav {
+    float: left;
+    width: 30%;
+    height: 286px;
+    background: #ff007b;
+    padding: 30px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  article {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    background-color: #b99506;
+    height: 286px;
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    background-color: #777;
+    padding: 50px;
+    text-align: center;
+    color: rgb(215, 0, 0);
+  }
+
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+<h2>Cat</h2>
+</header>
+
+<nav class="main-nav">
+  <a href="index.html">Home</a>
+  <a href="second.html">Cat</a>
+  <a href="third.html">Paris</a>
+</nav>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html" >Lancashire Heeler</a></li>
+      <li><a href="second.html">Cat</a></li>
+      <li><a href="third.html">Paris</a></li>
+      <li><a href="https://www.hltv.org/">HLTV</a></li>
+      <li><a href="https://www.youtube.com/">Youtube</a></li>
+    </ul>
+  </nav>
+
+<article>
+  <h1>Cat</h1>
+  <p>Here is a picture of a cat.</p>
+  <img class="right-image" src="images/we-can-do-better-v0-7qa86cqzzwbd1.webp" alt="giisu" height="280" width="300">
+</article>
+</section>
+
+<footer>
+<p>Footer</p>
+</footer>
+
+</body>
+</html>

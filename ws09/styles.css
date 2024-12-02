@@ -1,0 +1,37 @@
+#carouselExample {
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: $carousel-control-color; 
+      width: $carousel-control-icon-width; 30px
+      opacity: $carousel-control-opacity; 30px
+      transition: $carousel-control-transition;
+  
+      &:hover {
+        opacity: $carousel-control-hover-opacity;
+      }
+    }
+  
+    .carousel-indicators {
+      width: $carousel-indicator-width;
+      height: $carousel-indicator-height;
+  
+      li {
+        background-color: $carousel-indicator-active-bg;
+        opacity: $carousel-indicator-opacity;
+  
+        &.active {
+          opacity: $carousel-indicator-active-opacity;
+        }
+  
+        transition: $carousel-indicator-transition;
+      }
+    }
+  
+    .carousel-caption {
+      width: $carousel-caption-width;
+      color: $carousel-caption-color;
+      padding: $carousel-caption-padding-y 0;
+      margin-bottom: $carousel-caption-spacer;
+    }
+  }
+  
