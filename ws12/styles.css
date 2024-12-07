@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: url('images/hero.jpg')
+    color; rgb: (255, 255, 255);
+    padding; 60px 0;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.image-container img {
+    width: 205px; 
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Style for zoom effect on image hover */
+.image-container img {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.25); /* Zoom in by 10% */
+}
